@@ -37,8 +37,6 @@ int main(int argc, char** argv){
 	pid_t pid;
 	pid = fork();
 	
-	
-	
 	/* if the process id (pid) < 0 the fork failed */
 	if(pid < 0){
 		fprintf(stderr, "Fork Failed");
